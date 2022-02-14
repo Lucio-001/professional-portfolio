@@ -141,7 +141,8 @@ header nav ul li a:hover {
 
 /* WORK SECTION STARTS */
 .container-2 {
-    margin-top: 25px;
+    margin-top: 30px;
+    padding-top: 30px;
     display:flex;
     align-items: flex-start;
 }
@@ -152,7 +153,7 @@ header nav ul li a:hover {
     border-right: 5px solid var(--navy-blue);
     padding-left: 11%;
     padding-right: 2%;
-    padding-bottom: 700px;
+    padding-bottom: 950px;
     color: var(--navy-blue);
 }
 
@@ -180,19 +181,73 @@ header nav ul li a:hover {
     font-size: 25px;
 }
 
-.box-6 {
-    align-self: start;
+.container-4 {
+padding-left: 710px;
+}
+
+.small-text {
+    background-color: var(--aqua-blue);
+    padding: 5px 10px 10px 10px;
+    margin-left: -100px;
+    margin-right: 240px;
+}
+
+.small-text h4 {
+    font-size: 25px;
+}
+
+.led {
+    background-image: url("../images/led.jpg");
+    background-size: cover;
+    border: 5px solid var(--aqua-blue);
+    width: 34.5%;
+    height: 25%;
+    padding: 100px;
+    margin-left: 22.05%;
+    margin-top: -600px;
 }
 
 
+.calculator {
+    background-image: url("../images/computers.jpg");
+    background-size: cover;
+    border: 5px solid var(--aqua-blue);
+    width: 34.5%;
+    height: 25%;
+    padding: 100px;
+    margin-left: 58%;
+    margin-top: -272px;
+}
+
+.pastel-puzzles {
+    background-image: url("../images/pastel-puzzles.png");
+    background-size: cover;
+    border: 5px solid var(--aqua-blue);
+    width: 34.5%;
+    height: 25%;
+    padding: 100px;
+    margin-left: 22.05%;
+    margin-top: 25px;
+}
+
+.runbuddy {
+    background-image: url("../images/runbuddy.jpg");
+    background-size: cover;
+    border: 5px solid var(--aqua-blue);
+    width: 34.5%;
+    height: 25%;
+    padding: 100px;
+    margin-left: 58%;
+    margin-top: -272px;
+}
 
 /*WORK SECTION ENDS */
 
 /* CONTACT ME SECTION START */
 
-
 .container-3 {
-    margin-top: 25px;
+    margin-bottom: 75px;
+    padding-top: 75px;
     display: flex;
     align-items: flex-start;
 }
@@ -201,10 +256,26 @@ header nav ul li a:hover {
     text-align: right;
     font-size: 36px;
     border-right: 5px solid var(--navy-blue);
-    padding-left: 50px;
-    padding-right: 2%;
-    
-    padding-bottom: 40px;
+    padding-left: 51px;
+    padding-right: 2%; 
+    padding-bottom: 125px;
+    color: var(--navy-blue);
+}
+
+.box-7 {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+.box-7 h4{
+    padding: 0px 35px;
+    font-size: 30px;
+    text-decoration: underline;
     color: var(--navy-blue);
 }
 
