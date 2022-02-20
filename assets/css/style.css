@@ -109,9 +109,8 @@ header nav ul li a:hover {
 .title {
     text-align: right;
     font-size: 36px;
-    padding-left: 10%;
+    padding-left: 103px;
     padding-right: 2%;
-    
     color: var(--navy-blue);
 
 }
@@ -150,7 +149,7 @@ header nav ul li a:hover {
 .work-title {
     text-align: right;
     font-size: 36px;
-    padding-left: 11%;
+    padding-left: 120px;
     padding-right: 2%;
     padding-bottom: 5%;
     
@@ -159,46 +158,90 @@ header nav ul li a:hover {
 }
 
 .pictures {
-    border-right: 5px solid var(--navy-blue) ;
+    border-left: 5px solid var(--navy-blue) ;
     padding-top:10px;
     padding-bottom: 900px;
-    padding-left:1px;
+    
     
 }
-
+.sunset {
+    margin-left: 2%;
+    
+}
 
 .sunset img {
     position: absolute;
     border: 5px solid var(--aqua-blue);
     height: 400px;
     width:70%;
-    margin-left:2%;
+    
+}
+
+.sunset-text {
+    font-size: large;
+    background-color: var(--aqua-blue);
+    position: relative;
+    padding: 5px;
+    left: 40px;
+    top: 300px;
+    height:60px;
+    width: 250px;
+    
+}
+
+.sunset-text:hover {
+    background-color: var(--white);
 }
 
 
 
 .foursquare {
-    padding-right:6.5%;
-    padding-left:2%;
+    padding-right:10%;
     position: absolute;
     margin-top: 425px;
-    display: table-column;
-    align-items: center;
+    display: grid;
+    height: 40%;
+    margin-left: 10%;
+    grid-template-columns:auto minmax(1fr,1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    
+    
 }
 
 .foursquare img {
-    
-    margin: 20px;
+    flex: 1 1 auto;
+    display:fill;
     border: 5px solid var(--aqua-blue);
+    flex-wrap: wrap;
     height: 200px;
-    width: 45%;
+    width: 400px;
+    max-width: 100%;
+    z-index: 1;
 }
 
 
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
 
+.small-text {
+    font-size: medium;
+    background-color: var(--aqua-blue);
+    position: relative;
+    bottom: 80px;
+    margin-left: 5px;
+    margin-right:50%;
+    padding:2%;
+    width: 175px;
+}
 
-
-
+.small-text:hover {
+    background-color: var(--white);
+    width: 97.5%;
+    
+}
 
 
 /*WORK SECTION ENDS */
@@ -213,28 +256,38 @@ header nav ul li a:hover {
 }
 
 .contact-title {
+    position: absolute;
     text-align: right;
     font-size: 36px;
-    border-right: 5px solid var(--navy-blue);
-    padding-left: 4.45%;
-    padding-right: 2%; 
-    padding-bottom: 125px;
+    padding-left: 20px;
+    padding-right: 2%;
     color: var(--navy-blue);
+
 }
 
+.contact-title h3 {
+    float: right;
+}
 .box-7 {
-    padding-top: 70px;
+    position: absolute;
+    border-left: 5px solid var(--navy-blue);
+    padding-top: 2%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
+    margin-left: 255px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
 }
 
 
 
-.box-7 h4{
+.box-7 li h4{
     padding: 0px 35px;
-    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
     text-decoration: underline;
     color: var(--navy-blue);
     align-items: center;
